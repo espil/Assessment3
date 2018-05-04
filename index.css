@@ -1,0 +1,69 @@
+#postcard {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    background-color: azure;
+    background-image: url(imgs/default.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#to {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#message {
+    position: absolute;
+    width: 45vw;
+    height: 30vh;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+}
+
+#from {
+    width: 100px;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+    position: absolute;
+    background-color: white;
+}
+
+#controls {
+    margin: 10px;
+}
+
+.miniPostCard {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.miniTo {
+  background-color: white;
+  margin: 5px;
+  width: auto;
+  display: inline-block;
+}
+
+.miniMsg {
+  display: none;
+}
+
+.miniFrom {
+  display: none;
+}
